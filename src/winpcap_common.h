@@ -7,8 +7,8 @@
 #define MAX_ADAPTER_NUM 10
 
 /* Prototype */
-int  open_adapter(LPADAPTER *);
-void close_adapter(LPADAPTER);
+int  open_adapter( LPADAPTER * );
+void close_adapter( LPADAPTER );
 
 
 #endif /* _WINPCAP_COMMON_H_ */
