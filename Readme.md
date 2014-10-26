@@ -8,6 +8,7 @@
 
 ## Compiler Requirements
 I use [TDM-GCC](http://tdm-gcc.tdragon.net/), 32bit ONLY
+
 [MSYS](http://www.mingw.org/wiki/MSYS)
 
 Didn't test Visual Studio
