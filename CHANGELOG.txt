@@ -1,0 +1,8 @@
+10/09/2002        winarp_sk           0.9.2
+
+[winpcap_common.h]
+Change the value of ADAPTER_NAMES_SIZE to 4096
+With a value of 1024 and several adapters
+PacketGetAdapterNames returns an error because
+memory allocated to AdapterNameU and AdapterNameA
+isn't enough.
