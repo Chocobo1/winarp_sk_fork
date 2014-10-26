@@ -13,7 +13,7 @@
 #include "winpcap_common.h"
 #include "winarp_sk.h"
 #include "getopt.h"
-#include "Ntddndis.h"
+#include <ddk/Ndis.h>
 
 
 
