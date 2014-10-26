@@ -33,7 +33,7 @@ int open_adapter( LPADAPTER *lpAdapter )
 	WindowsMajorVersion = ( DWORD )( LOBYTE( LOWORD( Version ) ) );
 
 	/* Get adapter names */
-	if( !( Version >= 0x80000000 && WindowsMajorVersion >= 4 ) )
+	if( /*!( Version >= 0x80000000 && WindowsMajorVersion >= 4 ) */ 0 )
 	{
 		// Windows NT
 		if( PacketGetAdapterNames( ( PTSTR )AdapterNameU, &AdapterLength ) == FALSE )
