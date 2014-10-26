@@ -38,7 +38,7 @@ int main( int argc, char *argv[] )
 	unsigned char	etherdest[ETH_ADD_LEN];
 	unsigned char	ipsource[ARP_IP_ADD_SPACE];
 	unsigned char	ipdest[ARP_IP_ADD_SPACE];
-	int           opcode;
+	int           opcode = 0;
 
 	/* Flags */
 	int flag_mode = 0;
