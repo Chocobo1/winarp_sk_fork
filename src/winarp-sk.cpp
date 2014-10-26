@@ -557,7 +557,7 @@ void get_ether_addr( LPADAPTER lpAdapter, unsigned char *ether_addr )
 		}
 		else
 		{
-			memcpy( ether_addr, 0, 6 );
+			memset( ether_addr, 0, 6 );
 			printf( "\n" );
 		}
 	}
