@@ -1,4 +1,4 @@
-﻿## A fork of the original [winarp_sk](http://sid.rstack.org/arp-sk/)
+﻿## Fork of the original [winarp_sk](http://sid.rstack.org/arp-sk/)
 * Added Makefile for mingw
 * Fixed some errors
 * Maintenance only
